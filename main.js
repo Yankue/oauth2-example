@@ -5,8 +5,8 @@ const app = express();
 const apiBase = "https://discord.com/api";
 
 const config = {
-    CLIENT_ID: "820648030754832464",
-    CLIENT_SECRET: "Gl7UzcwTF1sG6MAv-ueC94QX6xJ80Lgt",
+    CLIENT_ID: "your-id",
+    CLIENT_SECRET: "your-secret",
     PORT: 3000
  }
 config.REDIRECT_URI = `http://localhost:${config.PORT}/oauth-callback`;
